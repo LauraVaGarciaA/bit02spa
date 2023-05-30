@@ -1,0 +1,4 @@
+
+export const PaginaNoEncontrada = () => {
+  return <div>Pagina No Encontrada</div>;
+}
