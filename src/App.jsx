@@ -6,6 +6,7 @@ import { PaginaAcerca } from "./components/PaginaAcerca";
 import { PaginaProductos } from "./components/PaginaProductos";
 import { PaginaRegistro } from "./components/PaginaRegistro";
 import { PaginaNoEncontrada } from "./components/PaginaNoEncontrada";
+import { PaginaPrivada } from "./components/PaginaPrivada";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Route path='/acerca-de' element={<PaginaAcerca />} />
         <Route path='/productos' element={<PaginaProductos />} />
         <Route path='/registro' element={<PaginaRegistro />} />
+        <Route path='/privada' element={<PaginaPrivada />} />
         <Route path='*' element={<PaginaNoEncontrada />} />
       </Routes>
     </BrowserRouter>
