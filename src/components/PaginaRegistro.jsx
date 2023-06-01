@@ -29,7 +29,7 @@ export const PaginaRegistro = () => {
 
     navigate('/privada');
   };
-
+ 
   
   
   return <div>

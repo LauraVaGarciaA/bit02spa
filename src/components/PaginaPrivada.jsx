@@ -1,6 +1,10 @@
+import { Tarjetas } from "./Tarjetas";
+import { catalogo } from "../utils/catalogo";
 
 export const PaginaPrivada = () => {
   return (
-    <div>Pagina Privada</div>
-  )
+    <>
+    <Tarjetas catalogo={catalogo}/>
+    </>
+  );
 }
