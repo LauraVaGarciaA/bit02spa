@@ -6,7 +6,6 @@ export const Navegacion = () => {
       
       <Link to='/bit02spa'>Inicio</Link>
       <Link to='/acerca-de'>Acerca de</Link>
-      <Link to='/productos'>Productos</Link>
       <Link to='/registro'>Registro</Link>
       
     </nav>

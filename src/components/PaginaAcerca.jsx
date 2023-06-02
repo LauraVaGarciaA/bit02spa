@@ -1,4 +1,5 @@
 
+
 export const PaginaAcerca = () => {
     return (
         <>
@@ -10,13 +11,13 @@ export const PaginaAcerca = () => {
             <h2>Concepto🏡</h2>Es un establecimiento dedicado a la venta de flores y arreglos florales.
             Es un lugar donde se puede encontrar una amplia variedad de flores frescas, 
             plantas y accesorios relacionados con la jardinería y la decoración floral.
-            Una floristería suele ser un espacio colorido y aromático, donde se exhiben y se venden diferentes tipos de flores, 
+            Suele ser un espacio colorido y aromático, donde se exhiben y se venden diferentes tipos de flores, 
             desde rosas y tulipanes hasta lirios y margaritas, entre muchas otras. </p>
         </div>
         
         <div className="contenedor3">
             <p>
-                <h2>💜Experiencia</h2>Es de establecimiento suele contar con expertos floristas que brindan asesoramiento y 
+                <h2>💜Experiencia</h2>Este establecimiento suele contar con expertos floristas que brindan asesoramiento y 
                 ayuda a los clientes a seleccionar las flores adecuadas para cada ocasión. 
                 Estos profesionales conocen las características de las distintas flores, su significado simbólico y su cuidado,
                 lo que les permite crear composiciones florales únicas y personalizadas.</p> 

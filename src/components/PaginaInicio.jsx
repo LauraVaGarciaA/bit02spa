@@ -1,3 +1,8 @@
+import jarron1 from '../assets/images/jarron2.jpg';
+import jarron2 from '../assets/images/jarron3.jpg';
+import jarron3 from '../assets/images/jarron4.jpg';
+import jarron4 from '../assets/images/jarron5.jpg';
+import jarron5 from '../assets/images/jarron6.jpg';
 
 export const PaginaInicio = () => {
   return (
@@ -10,23 +15,23 @@ export const PaginaInicio = () => {
     
     <img
       className="slider-item"
-      src="./../../src/assets/images/jarron2.jpg" />
+      src={jarron1} />
 
     <img
       className="slider-item"
-      src="./../../src/assets/images/jarron3.jpg" />
+      src={jarron2} />
 
     <img
       className="slider-item"
-      src="./../../src/assets/images/jarron4.jpg" />
+      src={jarron3} />
 
     <img
       className="slider-item"
-      src="../../../src/assets/images/jarron5.jpg" />
+      src={jarron4} />
 
 <img
       className="slider-item"
-      src="./../../src/assets/images/jarron6.jpg" />
+      src={jarron5} />
       
       </div>
     </div>

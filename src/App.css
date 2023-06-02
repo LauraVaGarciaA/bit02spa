@@ -243,6 +243,14 @@ strong{
     border-radius: 1rem;
 }
 
+.contenedor1{
+    background: rgb(252,229,239);
+    background: linear-gradient(60deg, rgba(252,229,239,1) 0%, rgba(224,238,255,1) 50%, rgb(243, 225, 240) 100%);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+}
+
 .contenedor1 h1{
     font-size: 5rem;
     padding: 2rem;
@@ -308,6 +316,13 @@ strong{
     gap: 1rem;
     text-align: center;
     color: rgb(90, 83, 83);
+}
+
+.pagina-no-encontrada h1{
+    font-size: 4rem;
+    text-align: center;
+    margin: 20rem;
+    color: red;
 }
 
 
