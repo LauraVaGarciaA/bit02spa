@@ -9,6 +9,10 @@ export const PaginaInicio = () => {
     <>
     <div className="titulo1">
       <h1 className="floristeria">Floristeria Carmesí</h1>
+      <div className='flor'>
+      <p>¡Ven por una flor!</p>
+      </div>
+      
       <div className="contenedor-images">
     <div className="slider-container">
     

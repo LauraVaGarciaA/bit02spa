@@ -218,18 +218,24 @@ strong{
     padding-top: 1.5rem;
 }
 
+.flor p{
+    font-size: 2.4rem;
+    color: rgb(255, 0, 170);
+    padding: 1.2rem;
+    font-weight: 800;
+}
+
 
 .contenedor-images{
     width: 40%;
     margin-left: 50rem;
     align-items: center;
-
 }
 
 .slider-container{
     display:Flex;
     width: 60%;
-    height: 70vh;
+    height: 60vh;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
     margin-top: 30px;
@@ -240,7 +246,7 @@ strong{
     width: 60%;
     object-fit:cover;
     scroll-snap-align: center;
-    border-radius: 1rem;
+    border-radius: 2rem;
 }
 
 .contenedor1{
