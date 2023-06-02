@@ -1,9 +1,5 @@
 
-export const Tarjeta = ({articulo, carrito, setCarrito}) => {
-    const agregarAlCarrito = (item) =>{
-        console.log(item);
-        setCarrito([...carrito, item])
-    };
+export const Tarjeta = ({articulo, agregarAlCarrito}) => {
 
   return (
     <div className="articulo">

@@ -1,9 +1,16 @@
 
-export const Carrito = () => {
+export const Carrito = ({totalArticulos, totalProductos, total, limpiarCarrito, manejarPago,}) => {
   return (
-    <>
-    <div>Carrito</div>
-    <div>Artículos</div>
-    </>
-  )
-}
+    <div className="carrito">
+    <span>Artículos: {totalArticulos}</span>
+    <span>Productos: {totalProductos}</span>
+    <span>Total: {total}</span>
+    {total > 0 &&(
+      <>
+      <button onClick={limpiarCarrito}>Limpiar</button>
+      <button onClick={manejarPago}>Pagar</button>
+      </>
+    )}
+    </div>
+  );
+};

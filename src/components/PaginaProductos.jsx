@@ -1,4 +1,10 @@
 
 export const PaginaProductos = () => {
-  return <div>Productos</div>;
+  return (
+    <>
+    <div>
+      
+    </div>
+    </>
+  )
 }
